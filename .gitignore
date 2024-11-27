@@ -1,0 +1,6 @@
+/outputs/*
+/subclass12/*
+**/__pycache__/
+*.pyc
+/.vscode/*
+/.samples/*
