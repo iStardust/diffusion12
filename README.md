@@ -105,7 +105,7 @@ The sampling process is defined in `src\sample.py`. We implement a sampler that 
 
 
 - **易鼎程，刘恺河**  
-  Contributed to the project discussion and offered useful suggestions.
+  Contributed to the project discussion and offered useful suggestions. Double-checked and confirmed the final results for submission.
 
 ## Acknowledgement
 
