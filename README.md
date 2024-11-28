@@ -9,11 +9,11 @@ This homework implements an efficient CFG diffusion model that generates hand-dr
 
 The generation results is as follows:
 
-![grid](samples\guidance_5.0\grid.png)
+![grid](samples/guidance_5.0/grid.png)
 
 The diffusion process is as follows:
 
-![process](samples\guidance_5.0\process.gif)
+![process](samples/guidance_5.0/process.gif)
 
 ## Quickstart
 
