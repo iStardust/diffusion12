@@ -17,7 +17,9 @@ The diffusion process is as follows:
 
 ## Quickstart
 
-To use our pretrained weight to generate samples, first unzip `outputs.zip` and then run the following command:
+To use our pretrained weight to generate samples, first download our pretrained weights from ![here](https://disk.pku.edu.cn/link/AAB7B62ABD9E0D4239AD9C3AB4A9973710
+文件名：outputs.zip
+有效期限：2025-12-31 13:08), unzip `outputs.zip`, and then run the following command:
 
 ```bash
 python src/sample.py
