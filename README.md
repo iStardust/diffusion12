@@ -19,6 +19,7 @@ The diffusion process is as follows:
 
 To use our pretrained weight to generate samples, first download our pretrained weights from [here](https://disk.pku.edu.cn/link/AAB7B62ABD9E0D4239AD9C3AB4A9973710), and unzip `outputs.zip`. Please make sure the structure of your folder look like the following:
 
+```
 ├── outputs
 │   ├── ckpts
 │   │   ├── best.pth
@@ -37,6 +38,7 @@ To use our pretrained weight to generate samples, first download our pretrained 
 │   ├── unet.py
 ├── README.md
 └── .gitignore
+```
 
 After that run the following command:
 
