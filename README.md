@@ -17,7 +17,7 @@ The diffusion process is as follows:
 
 ## Quickstart
 
-To use our pretrained weight to generate samples, run the following command:
+To use our pretrained weight to generate samples, first unzip `outputs.zip` and then run the following command:
 
 ```bash
 python src/sample.py
@@ -41,7 +41,7 @@ The training loss curve is saved under `outputs\logs`. If you would like to see 
 tensorboard --logdir outputs/logs
 ```
 
-If you would like to reproduce our training results from scratch, delete the `outputs` folder and run the following command:
+If you would like to reproduce our training results from scratch, please download the training data from [here](https://disk.pku.edu.cn/anyshare/zh-cn/link/AAFBDF996C62914377A13FD9B9B239AD6C?_tb=none&expires_at=2025-02-01T10%3A48%3A48%2B08%3A00&item_type=file&password_required=false&title=subclass12-dataset&type=anonymous), unzip `subclass12.zip`, delete the `outputs` folder and run the following command:
 
 ```bash
 python src/train.py
