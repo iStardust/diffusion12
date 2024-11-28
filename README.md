@@ -56,7 +56,7 @@ See `outputs` folder for our training results.
 
 The checkpoints every 5 epochs and the best checkpoint are saved under subfolder `outputs\ckpts`.
 
-To evaluate our model, we generate 4*12 images every epoch with different guidance strength and generation results can be found at `outputs\eval\image\image_ep{epoch num}_w{guidance strength}.png`. For a better visulization, we also generate a gif to show the diffusion process every 5 epochs and the gif can be found at `outputs\eval\gif\gif_ep{epoch num}_w{guidance strength}.gif`.
+To evaluate our model, we generate 4*12 images every epoch with different guidance strength and generation results can be found at `outputs\eval\image\image_ep{epoch num}_w{guidance strength}.png`, which is an 8-row image with the first 4 rows are generated samples and the last 4 rows are ground truth training data for comparison. For a better visulization, we also generate a gif to show the diffusion process every 5 epochs and the gif can be found at `outputs\eval\gif\gif_ep{epoch num}_w{guidance strength}.gif`.
 
 The training loss curve is saved under `outputs\logs`. If you would like to see the curve, run the following command (make sure tensorboard extension is installed):
 
