@@ -17,7 +17,28 @@ The diffusion process is as follows:
 
 ## Quickstart
 
-To use our pretrained weight to generate samples, first download our pretrained weights from [here](https://disk.pku.edu.cn/link/AAB7B62ABD9E0D4239AD9C3AB4A9973710), unzip `outputs.zip`, and then run the following command:
+To use our pretrained weight to generate samples, first download our pretrained weights from [here](https://disk.pku.edu.cn/link/AAB7B62ABD9E0D4239AD9C3AB4A9973710), and unzip `outputs.zip`. Please make sure the structure of your folder look like the following:
+
+├── outputs
+│   ├── ckpts
+│   │   ├── best.pth
+│   │   ├── model_{epoch_num}.pth
+│   ├── eval
+│   │   ├── gif
+│   │   ├── image
+│   ├── logs
+│   │   ├── a tfevent that logs training loss
+├── src
+│   ├── data_utils.py
+│   ├── diffusion.py
+│   ├── params.py
+│   ├── sample.py
+│   ├── train.py
+│   ├── unet.py
+├── README.md
+└── .gitignore
+
+After that run the following command:
 
 ```bash
 python src/sample.py
